@@ -7,6 +7,6 @@ public class Cat {
     String name;
 
     public void talk(){
-        Log.d("talk", "Hi! My name is " + name + "and I'm " + age + "years old");
+        Log.d("talk", "Meow! My name is " + name + "and I'm " + age + " years old ");
     }
 }
