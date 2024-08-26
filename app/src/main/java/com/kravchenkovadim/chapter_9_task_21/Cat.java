@@ -7,8 +7,8 @@ public class Cat {
     String name;
 
     public Cat(int a, String n){
-        age = a;
-        name = n;
+        this.age = a;
+        this.name = n;
     }
     public Cat(){
         age =2 ;

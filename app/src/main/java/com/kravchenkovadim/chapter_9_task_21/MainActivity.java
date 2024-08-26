@@ -30,5 +30,10 @@ public class MainActivity extends AppCompatActivity {
         Cat murzik = new Cat(2 , "Murza");
 
         murzik.talk();
+
+        Cat glasha = new Cat();
+        glasha.age =1 ;
+        glasha.name = "Glasha";
+        glasha.talk();
     }
 }
