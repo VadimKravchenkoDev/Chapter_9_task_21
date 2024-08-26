@@ -23,11 +23,12 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-        myCat = new Cat();
-        myCat.name = "Vaska";
-        myCat.age = 1;
+        myCat = new Cat(4, "Puma");
+
         myCat.talk();
-        Cat murzik = new Cat();
+
+        Cat murzik = new Cat(2 , "Murza");
+
         murzik.talk();
     }
 }

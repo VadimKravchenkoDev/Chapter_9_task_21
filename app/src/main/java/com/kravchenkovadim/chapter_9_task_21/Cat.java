@@ -6,11 +6,16 @@ public class Cat {
     int age;
     String name;
 
+    public Cat(int a, String n){
+        age = a;
+        name = n;
+    }
     public Cat(){
         age =2 ;
         name = "Vaska";
     }
     public void talk(){
-        Log.d("talk", "Meow! My name is " + name + "and I'm " + age + " years old ");
+        Log.d("talk", "Meow! My name is " + name + " and I'm " + age + " years old ");
     }
+
 }
