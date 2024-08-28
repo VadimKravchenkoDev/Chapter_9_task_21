@@ -1,6 +1,7 @@
 package com.kravchenkovadim.chapter_9_task_21;
 
 import android.os.Bundle;
+import android.util.Log;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -30,10 +31,13 @@ public class MainActivity extends AppCompatActivity {
         Cat murzik = new Cat(2 , "Murza");
 
         murzik.talk();
+        murzik.breathe();
 
         Cat glasha = new Cat();
         glasha.age =1 ;
         glasha.name = "Glasha";
+        glasha.numberOfLegs = 4;
+        Log.i("numberOfLeg", String.valueOf(glasha.numberOfLegs));
         glasha.talk();
     }
 }
