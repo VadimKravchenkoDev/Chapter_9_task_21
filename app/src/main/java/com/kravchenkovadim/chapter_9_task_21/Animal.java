@@ -6,7 +6,7 @@ public class Animal {
     int numberOfLegs;
     boolean isAlive;
 
-    public void breathe(){
-        Log.i("brethe", "I can breathe");
+    public String breathe(){
+        return "I can breathe";
     }
 }

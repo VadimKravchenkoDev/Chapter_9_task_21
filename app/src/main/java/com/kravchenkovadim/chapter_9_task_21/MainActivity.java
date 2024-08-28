@@ -39,5 +39,14 @@ public class MainActivity extends AppCompatActivity {
         glasha.numberOfLegs = 4;
         Log.i("numberOfLeg", String.valueOf(glasha.numberOfLegs));
         glasha.talk();
+
+        Puma puma = new Puma();
+        puma.breathe();
+        puma.talk();
+        puma.name = "Leo";
+        puma.isAlive = true;
+        Log.i("breathe", String.valueOf(puma.isAlive));
+        Log.i("breathe", "My name is " +
+                puma.name + " and " + puma.breathe());
     }
 }
