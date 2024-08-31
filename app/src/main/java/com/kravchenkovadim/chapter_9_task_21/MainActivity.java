@@ -28,13 +28,13 @@ public class MainActivity extends AppCompatActivity {
 
         myCat.talk();
 
-        Cat murzik = new Cat(2 , "Murza");
+        Cat murzik = new Cat(2, "Murza");
 
         murzik.talk();
         murzik.breathe();
 
         Cat glasha = new Cat();
-        glasha.age =1 ;
+        glasha.age = 1;
         glasha.name = "Glasha";
         glasha.numberOfLegs = 4;
         Log.i("numberOfLeg", String.valueOf(glasha.numberOfLegs));
@@ -48,5 +48,16 @@ public class MainActivity extends AppCompatActivity {
         Log.i("breathe", String.valueOf(puma.isAlive));
         Log.i("breathe", "My name is " +
                 puma.name + " and " + puma.breathe());
+
+
+        String myFirstName = "Vadim ";
+        String myLastName = "Kravchenko";
+        int myAge = 37;
+        Log.i("mylog", "My name is " + myFirstName +  myLastName + ". I’m " + String.valueOf(myAge) + " years old.");
+
+        class Engine {
+        }
+
+
     }
 }
